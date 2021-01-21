@@ -1,0 +1,39 @@
+
+h1 {
+    color: rgb(255, 0, 0);
+    }
+
+  *{
+    border: solid;
+    }
+
+p,h2 {
+   text-align: center;
+   
+}
+.header{
+   
+    display:flex;
+    justify-content: space-around;
+
+   }
+.site-description{
+    display:flex;
+    flex-direction:column-reverse;
+    justify-content: first baseline;
+    
+}
+.grid{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+
+}
+.footer{
+    display:flex;
+    justify-content: flex-end;
+    
+}
+
+       
